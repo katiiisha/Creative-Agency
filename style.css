@@ -1,0 +1,148 @@
+.font_nav {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 154.286% */
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+header {
+    border: 1px solid #000;
+    padding: 30px 22px 30px 22px;
+    box-sizing: border-box;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_nav{
+    width: 157px;
+    height: 52px;
+    background: #FB4B4D;
+    border: none;
+    color: #FFF;
+}
+.logo {
+   display: flex;
+    width: 199.25px;
+    padding: 0px 22.594px 0px 21.656px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.circle{
+    border: 1px solid #000;
+    background: #FB4B4D;
+    border-radius: 50%;
+    height: 17px;
+    width: 17px;
+}
+.second {
+    background: #8B83F6;
+}
+main {
+    display: flex;
+}
+.left_part {
+    border: 1px solid #000;
+    /* width: 697px; */
+    width: 50%;
+    border-top: none;
+}
+/* анимация бесконечной бегущей строки */
+.margue_inf {
+    box-sizing: border-box;
+    padding: 24px 0 23px 0;
+    border: 1px solid #000000;
+    border-left: none;
+    border-right: none;
+    /* width: 697px; */
+    width: 100%;
+    height: 78px;
+    overflow: hidden;
+}
+.margue_inf div {
+    display: flex;
+    width: 200%;
+    justify-content: space-around;
+    animation: margue_inf 10s linear infinite;
+}
+.margue_inf span {
+    width: 100%;
+    display: flex;
+    
+    
+}
+.murgue_text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px; 
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    white-space: nowrap;   
+}
+.margue_img {
+    margin-right: 28px;
+    margin-left: 28px;
+    width: 67px;
+    height: 31px;
+}
+@keyframes margue_inf {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-50%) ;
+    }
+}
+ .img_sauce, .logo_ujjo {
+   /* max-width: 657px; */
+    width: 100%;
+    height: 383px;
+}
+.img_sauce {
+    box-sizing: border-box;
+    width: 100%;
+    height: 436px;
+    padding: 19px 20px 19px 19px;
+}
+.right_part {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #000;
+    border-bottom : 1px solid #000;
+    width: 50%;
+}
+.right_part h1 {
+    width: 536px;
+    font-size: 58px; 
+    line-height: 64.512px;
+    text-align: center;
+    margin: 0; 
+
+}
+.right_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 233px;
+    border-bottom: 1px solid #000;
+}
+.sauce_in_hand {
+    flex: 1;
+    margin: 20px;
+    background-image: url(/image/sauce_in_hand.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .sauce_in_hand img {
+    box-sizing: border-box;
+    padding: 20px;
+    flex: 1;
+} */
