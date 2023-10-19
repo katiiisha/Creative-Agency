@@ -1,9 +1,12 @@
+body {
+    font-family: 'Roboto';
+}
 .font_nav {
     font-family: 'Roboto';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 21.6px; /* 154.286% */
+    line-height: 21.6px; 
     letter-spacing: 0.5px;
     text-transform: uppercase;
 }
@@ -100,7 +103,6 @@ main {
     }
 }
  .img_sauce, .logo_ujjo {
-   /* max-width: 657px; */
     width: 100%;
     height: 383px;
 }
@@ -141,8 +143,103 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .sauce_in_hand img {
+.transition_assortment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
     padding: 20px;
-    flex: 1;
-} */
+    height: 273px;
+    border: 1px solid #000;
+    border-top: none;
+}
+.lava { 
+font-size: 65px;
+line-height: 72.576px; 
+text-align: center;
+width: 785px;
+}
+.scorpio {
+    width: 225px;
+    height: 156px;
+}
+.left {
+    transform: scale(-1, 1);
+}
+.cards_product {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 700px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+.wrapper_card {
+    width: 437px;
+    height: 658px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
+.wrapper_card p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 14px 0; 
+}
+.wrapper_card h3 {
+    font-size: 32px;
+    line-height: 1.18; 
+    font-weight: 400;
+    margin: 0;
+}
+.product {
+    width: 390px;
+    height: 411px;
+    margin: 13px 0 23px;
+}
+.card_bg {
+    position: absolute;
+    z-index: -1 ;
+}
+.sq_incon {
+    position: absolute;
+}
+.sq_incon_second {
+    width: 58px;
+    height: 58px;
+    align-self: flex-end;
+    padding-bottom: 60px;
+}
+.r_incon {
+   width: 58px;
+   height: 88px;
+   z-index: 3;
+}
+.wrapper_icon {
+    width: 23px;
+    display: flex;
+    justify-content: center; 
+}
+.margue_inf_second {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    font-size: 17px;
+}
+.margue_inf_second > .margue_inf > .wrapper_margue {
+    animation: margue_inf 20s linear infinite;
+} 
+/* @keyframes margue_inf_second {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(calc(-50% - 10px  )) ;
+    }
+}  */
